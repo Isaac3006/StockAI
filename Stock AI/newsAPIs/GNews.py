@@ -6,7 +6,7 @@ import json
 
 
 
-API_KEY = "919ec4264c13d905c43b195e04c47732"
+API_KEY = ""
 
 
 url = f"https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey={API_KEY}"

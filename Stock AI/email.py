@@ -20,7 +20,7 @@ print("hi")
 
 # import os
 # import openai
-# openai.api_key = "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"
+# openai.api_key = ""
 
 
 

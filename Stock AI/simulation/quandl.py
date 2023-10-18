@@ -1,6 +1,6 @@
 import quandl as q
 
-q.ApiConfig.api_key = "PdJ5XyKxE9o6iUeSsNgS"
+q.ApiConfig.api_key = ""
 
 q.ApiConfig.verify_ssl = False
 

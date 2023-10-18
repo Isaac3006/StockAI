@@ -11,11 +11,11 @@ import unittest
 howOldCanNewsBe = 15
 
 
-openaiKey = "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"
+openaiKey = ""
 
-newsAPIKey = "pub_2439147b28baa2832e2c4e762e702dd89dd0f"
+newsAPIKey = ""
 
-testQuery = "https://newsdata.io/api/1/news?apikey=pub_2439147b28baa2832e2c4e762e702dd89dd0f&"
+testQuery = ""
 
 
 newsQuery = f"https://newsdata.io/api/1/news?apikey={newsAPIKey}&category=business,politics,technology"

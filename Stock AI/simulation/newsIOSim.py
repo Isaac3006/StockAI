@@ -6,7 +6,7 @@ import json
 
 import requests
 
-newsAPIKey = "pub_2439147b28baa2832e2c4e762e702dd89dd0f"
+newsAPIKey = ""
 
 
 

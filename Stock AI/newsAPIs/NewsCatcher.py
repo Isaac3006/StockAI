@@ -3,7 +3,7 @@
 from newscatcherapi import NewsCatcherApiClient
 
 
-API_KEY = 'tJgp0mCZ8TYADd5TX0_j5riJigxb-m3dp3CiLycOYUk'
+API_KEY = ''
 
 newscatcherapi = NewsCatcherApiClient(x_api_key=API_KEY)
 

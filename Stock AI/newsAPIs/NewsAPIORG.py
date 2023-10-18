@@ -1,7 +1,7 @@
 import json
 import newsapi
 
-API_KEY = "9cd8b39b10164f56b769b99f9edda233"
+API_KEY = ""
 
 
 connection = newsapi.NewsApiClient(api_key=API_KEY)

@@ -17,7 +17,7 @@ class Polygon:
         
         self.newsTime = None
         self.STOP = 15
-        self.API_KEY = "ag5FMzJ92wj8kgvuY4LHpiES_OG05A8z"
+        self.API_KEY = ""
 
 
 

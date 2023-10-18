@@ -2,7 +2,7 @@ import nasdaqdatalink as nq
 import requests
 
 
-API_KEY = "PdJ5XyKxE9o6iUeSsNgS"
+API_KEY = ""
 
 NASDAQ_DATA_LINK_API_KEY = API_KEY
 

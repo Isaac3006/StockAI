@@ -1,7 +1,7 @@
 import requests
 
 
-API_KEY = "PUT72TXNP4UQ69SM"
+API_KEY = ""
 
 
 url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=1min&apikey={API_KEY}'

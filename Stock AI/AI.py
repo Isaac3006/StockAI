@@ -9,10 +9,10 @@ import asyncio
 
 defaultMessage = open("defaultMessage.txt", "r").read()
 
-openaiKey = "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"
+openaiKey = ""
 # openai.api_key = os.getenv(openaiKey)
 openai.api_key = openaiKey
-bardKey = "AIzaSyAnJy8TlbebWGrkRxYGue6fqC96P1i9ZGU"
+bardKey = ""
 
 palm.configure(api_key=bardKey)
 
