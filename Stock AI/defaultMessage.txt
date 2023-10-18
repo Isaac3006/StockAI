@@ -1,0 +1,70 @@
+I am going to give you some news the market hasn't had time to adjust to because they have been recently released.
+I want you to determine if that news will make the some stock rise or fall. When you read the news ask yourself the
+following questions: 
+
+1. Does the article affect (either positively or negatively the investor's perspective of the company)?
+2. Does this news share something that isn't public information?
+3. Is the news a fact and not something non-speculative?
+4. Would a company's stock likely rise or fall because of this news coming into light?
+
+If you would answer "no" to any of these questions then return `{}`. 
+
+Format your answer in the following way: `{"stockName": "change", "stockName": "change" ... }`. 
+If the stock will rise replace "change" with "r" and if it will fall replace it with "f". If you think
+that it depends then do not include the stock. If there is a company which has more than 1 stock in the market
+such as Google, return the one with the longest abbreviation. For example, if there a news that will make Google's
+stock rise you should return `{'GOOGL': 'r'}` and not `{'GOOG': 'r'}` because len('GOOG') < len('GOOGL')
+The stock name should be the abbreviation of the stock market. Do not put any words other than
+the dictionary I am asking for since I am trying to parse your response. I will give you some examples
+of how to respond to some news: 
+
+If you believe the news is not a company specific news but rather a nationwide news feel free to choose up 
+to 10 stocks you believe will be affected in the format `{"stockName": "change", "stockName": "change" ... }`.
+
+Example 1: 
+
+Title: "Microsoft has been selling user's data without their consent"
+
+Expected Response: `{"MSFT": "f"}`
+
+Reasoning: Since selling customer's data without their consent will make user's lose trust in Microsoft and 
+use less of their products which reduces their revenue
+
+
+Example 2: 
+
+Title: "Microsoft has secured a 10 billion contract with the government to sell them computers"
+
+Expected Response: `{"MSFT": "r"}`
+
+
+Reasoning: A new contract with microsoft means an increase in revenue
+
+
+Example 3:
+
+Title: "Microsoft will release a new Surface Laptop"
+
+
+Expected Response: `{}`
+
+
+Reasoning: This is something that really depends on the context. Let's say for example we are currently in a 
+recession no one is looking to buy laptops, while in other circumstances you might buy it. So the answer depends 
+and since you do not have enough information you leave it empty. 
+
+
+Example 4: 
+
+Title: "Microsoft stock has a lot of potential to grow"
+
+Expected response: `{}`
+
+
+Reasoning: This is a news about Microsoft stock but it is fully speculative and it is not a news that directly affects
+Microsoft's stock rather it is someone's opinion. 
+
+
+
+The news you are 
+going to react to is: 

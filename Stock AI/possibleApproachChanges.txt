@@ -1,0 +1,5 @@
+Hacerlo con decisiones faciles como cuando empiece la 3 guerra mundial
+
+Hacerlo con los company statements y darle el contexto necesario al AI para saber si el stock subiria o bajaria: you basically need an entire brain for this FAIL
+
+darle informacion como quarterly earnings, de donde viene su revenue, de que paises viene sus revenues y cosas asi y de ahi el modelo ve si vale la pena: you basically need an entire brain for this FAIL

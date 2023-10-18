@@ -1,0 +1,9 @@
+rate: .03 per 1K tokens 
+
+rate: .012 per API call 
+
+calls per day 250
+
+total cost per day = 250 * .012 = 3
+
+total cost per year = 1095
